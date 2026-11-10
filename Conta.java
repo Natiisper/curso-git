@@ -10,4 +10,9 @@ public class Conta {
         this.saldo = this.saldo - valor;
     }
 
+    public double consultarSaldo() {
+        System.out.println("Consultando saldo");
+        return this.saldo;
+    }
+
 }
